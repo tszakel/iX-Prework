@@ -12,13 +12,43 @@
 <body>
     <div class="intro">
        <h1 class="welcome">
-        <span class="hello">Hey</span> <span class="hello">There!</span>
+        <span class="hello">Hi</span> <span class="hello">There!</span>
        </h1>
     </div>
 
-    <header>
-        <h4>My name is Tally  Szakel</h4>
-    </header>
+    <div class="about">
+        <header>
+            <h1>I'm Tally</h1>
+            <img src="../img/me.png" height="250" ></img>
+            <a href="https://github.com/tszakel">Github</a>
+            <p>Born in Chicago suburbs and raised both there and Texas equally. From a young age I've always been involved in music, sports, or some sort of engineering activity. I currently know 2 instruments - saxophone and guitar. While I did many sports growing up like baseball, soccer, and wrestling, I mainly stick to weight lifting and BJJ. As far as academics, currently entering my junior year at Vanderbilt Univerisity studying Computer Science with a minor in Data Science.</p>
+            <div class="baseball">
+                <h3>Can you guess my favorite team?</h3> <br/>
+                <input type="radio" name="baseball" id="Padres" name="team1" value="t1"> 
+                <label for="Padres">S.D. Padres</label> <br/><br/>
+                <input type="radio" name="baseball" id="Cubs" name="team2" value="t2"> 
+                <label for="Cubs">Chicago Cubs</label> <br/><br/>
+                <input type="radio" name="baseball" id="Astros" name="team3" value="t3"> 
+                <label for="Astros">Houston Astros</label> <br/><br/>
+                <input type="radio" name="baseball" id="Yankees" name="t4" value="Yankees"> 
+                <label for="Yankees">N.Y. Yankees</label> 
+            </div>
+            <div class="tv">
+                <h3>Give me tv suggestions!</h3> <br/>
+                <input type="text" style="font-size:30pt">
+            </div>
+            <div class="twotruths">
+                <h3>2 Truths and a Lie</h3> <br/>
+                <input type="checkbox" name="truthlie" id="dog" name="lie" value="dog"> 
+                <label for="Padres">I have a dog named Tank</label> <br/><br/>
+                <input type="checkbox" name="truthlie" id="skydive" name="truth1" value="skydive"> 
+                <label for="Cubs">I have gone skydiving</label> <br/><br/>
+                <input type="checkbox" name="truthlie" id="parade" name="truth2" value="parade" > 
+                <label for="Astros">I have 8 siblings</label>
+            </div>
+        </header>
+    </div>
+   
     <script src="app.js"></script>
 </body>
 </html>
