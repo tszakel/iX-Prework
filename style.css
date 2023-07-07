@@ -28,7 +28,15 @@ header {
   top: 335px;
   bottom: 100px;
   font-size: 25px;
-  left: 810px;
+  left: 830px;
+}
+
+.about h2{
+  position: absolute;
+  top: 335px;
+  bottom: 100px;
+  font-size: 25px;
+  left: 750px;
 }
 
 .about p{
